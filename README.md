@@ -5,7 +5,6 @@
   covers the problem, root cause, changes made, how to verify, and how to undo.
 
   ## Logs
-
 | File                                                         | What it covers                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Firewall — Spotify Port Restriction](2026-05-firewall-spotify-rules.md) | Restricting open ports to localhost using firewalld rich rules |
