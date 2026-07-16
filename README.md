@@ -1,10 +1,9 @@
----
-  # Linux Host Security Hardening
+# Linux Host Security Hardening
 
-  A collection of documented security changes made to a Fedora-based (Nobara) Linux daily-driver system. Each log
-  covers the problem, root cause, changes made, how to verify, and how to undo.
+A collection of documented security changes made to a Fedora-based (Nobara) Linux daily-driver system. Each log
+covers the problem, root cause, changes made, how to verify, and how to undo.
 
-  ## Logs
+## Logs
 | File                                                         | What it covers                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Firewall — Spotify Port Restriction](2026-05-firewall-spotify-rules.md) | Restricting open ports to localhost using firewalld rich rules |
@@ -15,9 +14,7 @@
 | [dnf-automatic Security Updates](2026-05-dnf-automatic.md)   | Enabling and disabling automatic security updates            |
 | **Black Screen Post login Fix**                              | Black screen on boot — root cause and fix via `nvidia-drm.modeset=1` kernel paramete |
 
-  ## Environment
+## Environment
 
-  - OS: Nobara Linux 43 (Fedora-based, KDE Plasma)
-  - Hardware: ASUS ROG laptop, AMD Ryzen + NVIDIA/AMD hybrid GPU
-
----
+- OS: Nobara Linux 43 (Fedora-based, KDE Plasma)
+- Hardware: ASUS ROG laptop, AMD Ryzen + NVIDIA/AMD hybrid GPU
